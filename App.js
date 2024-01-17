@@ -12,13 +12,14 @@ import ActivityIndicators from './Components/ActivityIndicators.jsx';
 import PressableImages from './Components/PressableImages.jsx';
 import Buttons from './Components/Buttons.jsx';
 import BackgroundImages from './Components/BackgroundImages.jsx';
+import StyleSheetAPI from './Components/StyleSheetAPI.jsx';
 
 const App = () => {
 
   return (
     <View style={styles.container}>
 
-      <Alerts/>
+      {/* <Alerts/> */}
       {/* <TextInputs/>
       <Images/>
       <Modals />
@@ -26,6 +27,7 @@ const App = () => {
       <PressableImages/>
       <Buttons/>
       <BackgroundImages/> */}
+      <StyleSheetAPI/>
 
 {/* Status bar */}
       <StatusBar backgroundColor='#fff' />
