@@ -7,7 +7,7 @@ import {
    Image, 
    ImageBackground,
     Button, 
-    Pressable
+    Pressable, ActivityIndicator
   } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import Modals from './Components/Modals.jsx';
@@ -16,6 +16,10 @@ const App = () => {
 
   return (
     <View style={styles.container}>
+
+      {/* Activity Indicator show a loading that shows what is happening in the activity */}
+      <ActivityIndicator/>
+
       <View style={styles.back}>
         <Image
           source={require('./assets/back.jpg')}
