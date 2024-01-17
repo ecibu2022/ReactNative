@@ -1,12 +1,11 @@
 import {React} from 'react';
 import { 
-  StyleSheet, 
-  Text,
+  StyleSheet,
    View,
   } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import Modals from './Components/Modals.jsx';
 import Alerts from './Components/Alerts.jsx';
+import Modals from './Components/Modals.jsx';
 import TextInputs from './Components/TextInputs.jsx';
 import Images from './Components/Images.jsx';
 import ActivityIndicators from './Components/ActivityIndicators.jsx';
@@ -20,13 +19,13 @@ const App = () => {
     <View style={styles.container}>
 
       <Alerts/>
-      <TextInputs/>
+      {/* <TextInputs/>
       <Images/>
       <Modals />
       <ActivityIndicators />
       <PressableImages/>
       <Buttons/>
-      <BackgroundImages/>
+      <BackgroundImages/> */}
 
 {/* Status bar */}
       <StatusBar backgroundColor='#fff' />
