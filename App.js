@@ -17,9 +17,6 @@ const App = () => {
   return (
     <View style={styles.container}>
 
-      {/* Activity Indicator show a loading that shows what is happening in the activity */}
-      <ActivityIndicator/>
-
       <View style={styles.back}>
         <Image
           source={require('./assets/back.jpg')}
@@ -34,6 +31,13 @@ const App = () => {
         source={require('./assets/favicon.png')}
         style={{ width: 100, height: 100, margin: 20 }}
       />
+      
+      {/* Activity Indicator show a loading that shows what is happening in the activity  it is the same as Circular Loading dialog*/}
+      <ActivityIndicator />
+      <ActivityIndicator size='small'/>
+      <ActivityIndicator size='large'/>
+      {/* Adding a color */}
+      <ActivityIndicator size='large' color='red'/>
 
       <TextInput
         style={{ height: 40, margin: 10, backgroundColor: '#ffffff', width: 350, padding: 15, borderColor: '#000000', borderRadius: 12 }}
